@@ -15,50 +15,50 @@ body {
     max-width: 450px;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 15px; /* Bordas mais arredondadas */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra suave para profundidade */
-    backdrop-filter: blur(10px); /* Efeito de vidro fosco (Glassmorphism) */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Borda sutil */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 h1 {
-    font-size: 2.2rem; /* Título um pouco maior */
+    font-size: 2.2rem;
     margin-bottom: 30px;
-    color: #ffffff; /* Título branco */
-    text-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra no texto do título */
+    color: #ffffff;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 
 .form-conexao {
     display: flex;
     flex-direction: column;
-    gap: 25px; /* Mais espaço entre input e botão */
+    gap: 25px;
 }
 
 
 #codigo_input {
-    padding: 18px; /* Mais preenchimento */
-    font-size: 2.3rem; /* Texto do código bem maior */
+    padding: 18px;
+    font-size: 2.3rem;
     text-align: center;
-    letter-spacing: 8px; /* Mais espaçamento entre os caracteres */
-    background-color: rgba(255, 255, 255, 0.2); /* Fundo do input semi-transparente */
-    border: 2px solid rgba(255, 255, 255, 0.4); /* Borda mais visível */
-    color: #ffffff; /* Texto do input branco */
-    border-radius: 10px; /* Bordas arredondadas */
-    outline: none; /* Remove a borda azul ao clicar */
-    transition: all 0.3s ease; /* Transição suave para efeitos de hover/focus */
+    letter-spacing: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
 }
 
 
 #codigo_input:focus {
-    border-color: #00e0ff; /* Borda azul ciano ao focar */
-    background-color: rgba(255, 255, 255, 0.3); /* Fundo um pouco mais claro ao focar */
-    box-shadow: 0 0 15px rgba(0, 224, 255, 0.5); /* Sombra luminosa */
+    border-color: #00e0ff;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(0, 224, 255, 0.5);
 }
 
 
 #codigo_input::placeholder {
-    color: rgba(255, 255, 255, 0.6); /* Cor do placeholder mais clara */
+    color: rgba(255, 255, 255, 0.6);
 }
 
 
